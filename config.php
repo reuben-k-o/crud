@@ -16,7 +16,7 @@ Class Model{
     // protected function __firebasePusher(){
     //     return null;
     // }
-
+      // Inserting file into the database
     public function insert(){
           
         if (isset($_POST['submit'])){
@@ -44,7 +44,7 @@ Class Model{
         }
     }
 
-
+// fetching files
     public function fetch(){
         $data = null;
 
